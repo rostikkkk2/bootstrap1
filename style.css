@@ -1,0 +1,123 @@
+.logo-back-part{
+  height: 65px;
+}
+
+.b-c{
+  background-color: rgb(65, 87, 240);
+}
+
+.b-c2{
+  background-color:  #1b74c1;
+}
+
+p.h1{
+  color: white;
+  padding-bottom: 20px;
+  margin-top: 14px;
+}
+
+.logo{
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+}
+
+i.fa-bars{
+  font-size: 25px;
+  margin-top: 20px;
+  color: white;
+}
+
+i.fa-bars:hover{
+  color: rgb(32, 34, 45);
+}
+
+.ava-logo-part{
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+}
+
+.fa-envelope-o , .fa-bell-o , .fa-flag-o{
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.fa-envelope-o:hover , .fa-bell-o:hover , .fa-flag-o:hover{
+  color: rgb(32, 34, 45);
+}
+
+
+p.name-ava{
+  color: white;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.functions{
+  background-color: rgb(38, 43, 43);
+  height: 850px;
+}
+
+.ava-functions{
+  margin-top: 40px;
+  height: 90px;
+  width: 90px;
+}
+
+.name-ava-functions{
+  font-size: 25px;
+  color: white;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.fa-circle{
+  margin-top: 25px;
+  color: green;
+}
+
+.online{
+  color: white;
+}
+
+.input-functions{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.forn-input-color-func{
+  background-color: rgb(65, 65, 75);
+  border-color: rgb(65, 65, 75);
+  color: white;
+}
+
+.nav-func{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(87, 90, 115);
+  font-size: 20px;
+}
+
+.nav-func:hover{
+  color: white;
+  background-color: rgb(28,28,28)
+}
+
+.fs-35{
+  font-size: 35px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mt-14{
+  margin-top: 14px;
+}
+
+.caption-proj-name{
+  color: rgb(167, 171, 169);
+}
