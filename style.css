@@ -2,34 +2,61 @@
   height: 65px;
 }
 
-.b-c{
-  background-color: rgb(65, 87, 240);
-}
-
-.b-c2{
-  background-color:  #1b74c1;
-}
-
-p.h1{
-  color: white;
-  padding-bottom: 20px;
-  margin-top: 14px;
-}
-
 .logo{
   font-size: 30px;
   color: white;
   margin-top: 10px;
 }
 
-i.fa-bars{
+.back-col-project-pro{
+  background-color: rgb(65, 87, 240);
+}
+
+.i-fa-bars{
   font-size: 25px;
   margin-top: 20px;
   color: white;
 }
 
-i.fa-bars:hover{
+.i-fa-bars:hover{
   color: rgb(32, 34, 45);
+}
+
+.back-col-logo-part{
+  background-color:  #1b74c1;
+}
+
+.on-i-message-one{
+  display: inline-block;
+  height: 14px;
+  width: 10px;
+  background-color: green;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+}
+
+.on-i-message-two{
+  display: inline-block;
+  height: 14px;
+  width: 10px;
+  background-color: orange;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+}
+
+.on-i-message-three{
+  display: inline-block;
+  height: 14px;
+  width: 10px;
+  background-color: red;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
 }
 
 .ava-logo-part{
@@ -38,16 +65,19 @@ i.fa-bars:hover{
   margin-top: 10px;
 }
 
-.fa-envelope-o , .fa-bell-o , .fa-flag-o{
+.i-fa-envelope-o , .i-fa-bell-o , .i-fa-flag-o{
   font-size: 20px;
   color: white;
   margin-top: 20px;
 }
 
-.fa-envelope-o:hover , .fa-bell-o:hover , .fa-flag-o:hover{
+.i-fa-envelope-o:hover , .i-fa-bell-o:hover , .i-fa-flag-o:hover{
   color: rgb(32, 34, 45);
 }
 
+.main{
+   background-color: #e6e6e6;
+}
 
 p.name-ava{
   color: white;
@@ -58,23 +88,23 @@ p.name-ava{
 
 .functions{
   background-color: rgb(38, 43, 43);
-  height: 850px;
+  height: 880px;
 }
 
 .ava-functions{
   margin-top: 40px;
-  height: 90px;
-  width: 90px;
+  height: 65px;
+  width: 65px;
 }
 
 .name-ava-functions{
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   margin-top: 40px;
   display: inline-block;
 }
 
-.fa-circle{
+.i-fa-circle{
   margin-top: 25px;
   color: green;
 }
@@ -98,7 +128,8 @@ p.name-ava{
   padding-top: 20px;
   padding-bottom: 20px;
   color: rgb(87, 90, 115);
-  font-size: 20px;
+  font-size: 17px;
+  cursor: default;
 }
 
 .nav-func:hover{
@@ -106,18 +137,147 @@ p.name-ava{
   background-color: rgb(28,28,28)
 }
 
-.fs-35{
-  font-size: 35px;
-}
-
-.mt-40{
-  margin-top: 40px;
-}
-
-.mt-14{
-  margin-top: 14px;
-}
-
 .caption-proj-name{
   color: rgb(167, 171, 169);
+}
+
+.back-borden-box-main-page{
+  height: 120px;
+  border: 1px solid #00a1ff;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn-export-to-CSV{
+  color: #fff;
+  background-color: #2b2f33;
+  border-color: #2b2f33;
+}
+
+.btn-export-to-CSV:hover{
+  color: #fff;
+  background-color: #2b2f33;
+  border-color: #2b2f33;
+}
+
+.btn-create-new{
+  border-radius: 6px !important;
+  margin-right: 4px;
+}
+
+.btn-toggle-columns{
+  margin-right: 3px;
+  border-radius: 0 !important;
+}
+
+.btn-export-to-PDF{
+  border-radius: 3px 3px !important;
+}
+
+.btn-export-to-CSV{
+  border-radius: 3px 3px !important;
+}
+
+.btn-export-to{
+  margin-left: 3px !important;
+  border-radius: 0 !important;
+}
+
+.secound-box-main-page{
+  border: 1px solid #00a1ff;
+  height: 430px;
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.top-row-secound-box-main-page{
+  border-radius: 7px 7px 0 0;
+  height: 50px;
+}
+
+.role-records{
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.btn-1-10{
+  background-color: white;
+  border: 1px solid #b9b9b9;
+  margin-top: 25px;
+}
+
+.records-per-page{
+  margin-top: 30px;/*aaaaaaaaaaaaaaaaaaaaaaaaa*/
+  font-size: 16px;
+  vertical-align: bottom;
+}
+
+.table-main{
+  margin-top: 30px;
+}
+
+.btn-table{
+  display: block;
+  width: 45px;
+  height: 40px;
+}
+
+.btn-table-img{
+  width: 25px;
+  height: 25px;
+}
+
+.table-first-td{
+  width: 120px;
+}
+
+.btn-prev-and-next{
+  border: 1px solid rgb(193, 193, 193);
+  width: 220px;
+}
+
+.btn-previous-page{
+  height: 30px;
+  width: 100px;
+  border: none;
+  color: rgb(121, 119, 119);
+}
+
+.btn-next-page{
+  height: 30px;
+  width: 80px;
+  border: none;
+  color: rgb(121, 119, 119);
+}
+
+.numbers-pages{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid grey;
+  padding-bottom: 5px;
+  padding-top: 4px;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+.settings{
+  width: 60px;
+  height: 45px;
+  background-color: white;
+  margin-left: 60px;
+  border-radius: 10px 0 0 10px;
+  position: fixed;
+}
+
+.i-fa-cog{
+  font-size: 30px;
+  margin-top: 7px;
+  color: blue;
+}
+
+.i-fa-cog:hover{
+  color: black;
 }
