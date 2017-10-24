@@ -1,5 +1,5 @@
 .logo-back-part{
-  height: 65px;
+  min-height: 65px;
 }
 
 .logo{
@@ -24,6 +24,7 @@
 
 .back-col-logo-part{
   background-color:  #1b74c1;
+  min-height: 65px;
 }
 
 .on-i-message-one{
@@ -62,7 +63,6 @@
 .ava-logo-part{
   height: 40px;
   width: 40px;
-  margin-top: 10px;
 }
 
 .i-fa-envelope-o , .i-fa-bell-o , .i-fa-flag-o{
@@ -88,17 +88,16 @@ p.name-ava{
 
 .functions{
   background-color: rgb(38, 43, 43);
-  height: 880px;
 }
 
 .ava-functions{
   margin-top: 40px;
-  height: 65px;
-  width: 65px;
+  height: 55px;
+  width: 55px;
 }
 
 .name-ava-functions{
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   margin-top: 40px;
   display: inline-block;
@@ -111,6 +110,7 @@ p.name-ava{
 
 .online{
   color: white;
+  font-size: 10px;
 }
 
 .input-functions{
@@ -142,7 +142,7 @@ p.name-ava{
 }
 
 .back-borden-box-main-page{
-  height: 120px;
+  min-height: 120px;
   border: 1px solid #00a1ff;
   background-color: white;
   border-radius: 10px;
@@ -185,7 +185,7 @@ p.name-ava{
 
 .secound-box-main-page{
   border: 1px solid #00a1ff;
-  height: 430px;
+  min-height: 430px;
   margin-top: 100px;
   border-radius: 10px;
   background-color: white;
@@ -270,6 +270,7 @@ p.name-ava{
   margin-left: 60px;
   border-radius: 10px 0 0 10px;
   position: fixed;
+  right: 0;
 }
 
 .i-fa-cog{
