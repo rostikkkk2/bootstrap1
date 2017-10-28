@@ -142,7 +142,7 @@ p.name-ava{
 }
 
 .back-borden-box-main-page{
-  min-height: 120px;
+  min-height: 10px;
   border: 1px solid #00a1ff;
   background-color: white;
   border-radius: 10px;
@@ -160,27 +160,20 @@ p.name-ava{
   border-color: #2b2f33;
 }
 
-.btn-create-new{
-  border-radius: 6px !important;
-  margin-right: 4px;
-}
-
 .btn-toggle-columns{
-  margin-right: 3px;
   border-radius: 0 !important;
 }
 
 .btn-export-to-PDF{
-  border-radius: 3px 3px !important;
+  border-bottom-color: white;
+}
+
+.btn-export-excel{
+  border-bottom-color: white;
 }
 
 .btn-export-to-CSV{
   border-radius: 3px 3px !important;
-}
-
-.btn-export-to{
-  margin-left: 3px !important;
-  border-radius: 0 !important;
 }
 
 .secound-box-main-page{
@@ -198,13 +191,13 @@ p.name-ava{
 
 .role-records{
   font-size: 23px;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .btn-1-10{
   background-color: white;
   border: 1px solid #b9b9b9;
-  margin-top: 25px;
+  margin-top: 21px;
 }
 
 .records-per-page{
@@ -234,7 +227,7 @@ p.name-ava{
 
 .btn-prev-and-next{
   border: 1px solid rgb(193, 193, 193);
-  width: 220px;
+  width: 200px;
 }
 
 .btn-previous-page{
@@ -246,7 +239,7 @@ p.name-ava{
 
 .btn-next-page{
   height: 30px;
-  width: 80px;
+  max-width: 80px;
   border: none;
   color: rgb(121, 119, 119);
 }
@@ -281,4 +274,110 @@ p.name-ava{
 
 .i-fa-cog:hover{
   color: black;
+}
+
+@media(max-width:992px){
+  .btn-sm-xs{
+    border-color: white;
+    font-size: 16px !important;
+  }
+}
+
+@media(max-width:375px){
+  .btn-sm-xs{
+    border-color: white;
+    font-size: 10px !important;
+  }
+  .mb-36{
+    margin: 0px !important;
+  }
+}
+
+@media(max-width:768px and min-width:425px){
+  .mb-36{
+    margin: 20px !important;
+  }
+}
+
+@media(max-width:320px){
+  .role-records{
+      font-size: 19px;
+  }
+}
+
+@media(max-width:425px){
+  .disp-none{
+    display: none;
+  }
+}
+
+@media(max-width:425px){
+  .search-records{
+    float: left;
+  }
+  .btn-next-page{
+    width: 55 !important;
+    font-size: 13px !important;
+  }
+  .btn-previous-page{
+    width: 90px !important;
+    font-size: 12px !important;
+  }
+  .numbers-pages{
+    width: 20px !important;
+  }
+  .btn-prev-and-next{
+    width: 180px !important;
+  }
+  .functions{
+    height: 975px;
+  }
+}
+
+.div-btn-show-table{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.btn-show-table{
+  font-size: 20px;
+  background-color: #337ab7;
+  color: white;
+}
+
+@media(max-width:375px){
+  .btn-next-page{
+    width: 58px !important;
+    font-size: 11px !important;
+  }
+  .btn-previous-page{
+    width: 80px !important;
+    font-size: 11px !important;
+  }
+  .numbers-pages{
+    width: 10px !important;
+  }
+  .btn-prev-and-next{
+    width: 158px !important;
+  }
+  .functions{
+    height: 920px;
+  }
+}
+
+@media(max-width:320px){
+  .btn-next-page{
+    width: 50px !important;
+    font-size: 11px !important;
+  }
+  .btn-previous-page{
+    width: 58px !important;
+    font-size: 11px !important;
+  }
+  .numbers-pages{
+    width: 10px !important;
+  }
+  .btn-prev-and-next{
+    width: 128px !important;
+  }
 }

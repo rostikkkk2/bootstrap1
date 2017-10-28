@@ -157,14 +157,15 @@
         </div>
         <div class="col-xs-7 col-sm-9 col-md-10">
           <div class="row mt-36">
-            <div class="col-xs-2 text-right">
+            <div class="col-md-1 col-lg-1 hidden-sm hidden-xs"></div>
+            <div class="col-lg-2 col-md-3 col-sm-11 text-center">
               <b class="lead fs-30">Project List</b>
             </div>
-            <div class="col-xs-2 mt-9">
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs mt-9">
               <b class="lead caption-proj-name">Project List</b>
             </div>
-            <div class="col-xs-7"></div>
-            <div class="col-xs-1">
+            <div class="col-lg-7 col-md-6" ></div>
+            <div class="col-lg-1 col-md-1">
               <div class="settings text-center">
                 <i class="fa fa-cog i-fa-cog" aria-hidden="true"></i>
               </div>
@@ -173,12 +174,12 @@
           <div class="row mt-36">
             <div class="col-xs-1"></div>
             <div class="col-xs-10 text-left back-borden-box-main-page">
-              <div class="row mt-36 ml-5">
+              <div class="row mt-36 ml-5 mb-36">
                 <div class="btn-group " role="group">
                  <div class="btn-group " role="group">
-                  <button type="button" class="btn btn-create-new btn-default btn-primary fs-btns">Create New</button>
+                  <button type="button" class="btn btn-default btn-primary btn-sm-xs fs-btns">Create New</button>
                  </div>
-                 <button class="btn btn-toggle-columns btn-danger fs-btns dropdown-toggle" id="Toggle columns" data-toggle="dropdown" aria-expanded="true" type="button">
+                 <button class="btn btn-toggle-columns btn-danger fs-btns btn-sm-xs dropdown-toggle" id="Toggle columns" data-toggle="dropdown" aria-expanded="true" type="button">
                   Toggle columns
                   <span class="caret"></span>
                  </button>
@@ -188,30 +189,31 @@
                   <li><a href="#">tyiyt</a></li>
                  </ul>
                  <div class="btn-group" role="group">
-                  <button type="button" class="btn btn-export-to-PDF btn-default fs-btns btn-danger">
+                  <button type="button" class="btn btn-export-to-PDF btn-sm-xs btn-default fs-btns btn-danger">
                     <img src="images/pdf.png" width="26px" height="26px" alt="no">
                     Export to PDF
                   </button>
                  </div>
                  <div class="btn-group" role="group">
-                  <button type="button" class="btn btn-default fs-btns btn-success">
+                  <button type="button" class="btn btn-default btn-export-excel btn-sm-xs fs-btns btn-success">
                     <img src="images/excel.png" width="26px" height="26px" alt="no">
                     Export to Excel
                   </button>
                  </div>
                  <div class="btn-group" role="group">
-                  <button type="button" class="btn btn-default fs-btns btn-primary">
+                  <button type="button" class="btn btn-default btn-sm-xs fs-btns btn-primary">
                     <img src="images/word.png" width="26px" height="26px" alt="no">
                     Export to Word
                   </button>
                  </div>
                  <div class="btn-group" role="group">
-                  <button type="button" class="btn btn-export-to-CSV btn-default fs-btns btn-export-to-CSV">
+                  <button type="button" class="btn btn-export-to-CSV btn-default btn-sm-xs fs-btns btn-export-to-CSV">
                     <img src="images/csv.png" width="26px" height="26px" alt="no">
                     Export to CSV
                   </button>
                  </div>
-                  <button class="btn btn-export-to fs-btns btn-danger dropdown-toggle" id="Export to" data-toggle="dropdown" aria-expanded="true" type="button">
+                 <div class="btn-group" role="group">
+                  <button class="btn btn-export-to fs-btns btn-danger btn-sm-xs dropdown-toggle" id="Export to" data-toggle="dropdown" aria-expanded="true" type="button">
                    Export to
                    <span class="caret"></span>
                   </button>
@@ -221,6 +223,7 @@
                    <li><a href="#">face</a></li>
                   </ul>
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-xs-1"></div>
@@ -229,12 +232,12 @@
             <div class="col-xs-1"></div>
             <div class="col-xs-10 secound-box-main-page">
               <div class="row">
-                <div class="col-xs-12 bg-primary top-row-secound-box-main-page">
+                <div class=" col-sm-12 col-sx-12 bg-primary top-row-secound-box-main-page">
                   <p class="role-records">Role Records</p>
                 </div>
               </div>
               <div class="row">
-                <div class="col-xs-3">
+                <div class="col-md-1 col-lg-1 col-sm-1 disp-none text-right">
                     <button class="btn btn-1-10 " data-toggle="dropdown" aria-expanded="true" id="1-10" type="button">
                       10
                       <span class="caret"></span>
@@ -245,18 +248,22 @@
                      <li><a href="#">8</a></li>
                      <li><a href="#">7</a></li>
                     </ul>
-                    <span class="records-per-page">Records Per Page</span>
                 </div>
-                <div class="col-xs-6"></div>
-                <div class="col-xs-3">
-                  <!-- <div class="form-group">
-                    <label class="control-label" for="lolol">Search</label>
-                    <input class="mt-28" type="text" name="email" id="lolol">
-                  </div> -->
+                <div class="col-md-3 col-lg-2 hidden-sm hidden-xs pt-31"><span class="records-per-page">Records Per Page</span></div>
+                <div class="col-md-3 col-lg-5 col-sm-3"></div>
+                <div class="col-md-5 col-lg-4 col-sm-8 pt-20">
+                  <div class="row form-group">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-sx-5 text-right search-records"><label class="control-label pt-8" for="lolol">Search</label></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6"><input class="form-control records-input" type="text" name="email" id="lolol"></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-sx-1"></div>
+                  </div>
                 </div>
               </div>
-              <!-- <div class="row">
-                <table class="table table-condensed table-main table-responsive table-bordered">
+              <div class="row bg-info">
+                <div class="btn col-sm-12 col-xs-12 div-btn-show-table hidden-lg hidden-md">
+                  <button type="button" class="btn btn-show-table">Show table</button>
+                </div>
+                <table class="table table-condensed hidden-sm hidden-xs table-main table-responsive table-bordered">
                   <thead>
                     <tr>
                       <th></th>
@@ -265,9 +272,9 @@
                       <th>AddedBy</th>
                       <th>StartDate</th>
                       <th>EndDate</th>
-                      <th>CompanyOfficeld</th>
+                      <th class="hidden-md">CompanyOfficeld</th>
                       <th>Clientld</th>
-                      <th>Status</th>
+                      <th class="hidden-md">Status</th>
                       <th>ProjectOwner</th>
                       <th>Details</th>
                       <th>TargetDate</th>
@@ -297,13 +304,13 @@
                         5/21/2015<br>
                         12:00:00 AM
                       </td>
-                      <td>
+                      <td class="hidden-md">
                         <a href="">Bhogpur Office</a>
                        </td>
                       <td>
                         <a href="">Admin</a>
                       </td>
-                      <td>Done</td>
+                      <td class="hidden-md">Done</td>
                       <td>
                         <a href="">Admin</a>
                       </td>
@@ -318,19 +325,20 @@
                     </tr>
                   </tbody>
                 </table>
-              </div> -->
-              <div class="row">
-                <div class="col-xs-3">
+              </div>
+              <div class="row mt-25">
+                <div class="col-md-4 col-sm-5 col-lg-3 hidden-xs">
                   <p>Showing 1 to 1 of 1 entries</p>
                 </div>
-                <div class="col-xs-6"></div>
-                <div class="col-xs-3">
-                  <!-- <div class="btn-prev-and-next">
-                    <button class="btn btn-default btn-previous-page">Previous</button>
-                    <div class="numbers-pages bg-primary">1</div>
-                    <button class="btn btn-default btn-next-page">Next</button>
-                  </div> -->
+                <div class="col-md-2 col-sm-1 col-lg-5"></div>
+                <div class="col-md-3 col-sm-5 col-lg-3">
+                    <div class="btn-prev-and-next">
+                      <button class="btn btn-default btn-previous-page">Previous</button>
+                      <div class="numbers-pages bg-primary">1</div>
+                      <button class="btn btn-default btn-next-page">Next</button>
+                    </div>
                 </div>
+                <div class="col-sm-1 col-md-3 col-lg-1"></div>
               </div>
             </div>
             <div class="col-xs-1"></div>
